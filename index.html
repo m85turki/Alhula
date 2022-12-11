@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+
+<html
+  lang="ar"
+  class="light-style alhula"
+  dir="rtl"
+  data-theme="theme-default"
+  data-assets-path="./assets/"
+  data-template="horizontal-menu-template-no-customizer"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>Dashboard - Analytics | Frest - Bootstrap Admin Template</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/flag-icons.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/icomoon.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="./assets/vendor/css/rtl/core.css" />
+    <link rel="stylesheet" href="./assets/vendor/css/rtl/theme-default.css" />
+    
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="./assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
+    
+    <!-- WOW CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/vendor/libs/wow/engine/style.css" />
+    
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/demo.css" />
+
+    <!-- Helpers -->
+    <script src="./assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="./assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu">
+      <div class="layout-container">
+        <!-- Navbar -->
+
+        <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+          <div class="container-xl">
+            <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
+
+              <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-xl-none">
+                <i class="bx bx-x bx-sm align-middle"></i>
+              </a>
+            </div>
+
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Search -->
+                <li class="nav-item navbar-search-wrapper me-2 me-xl-0 d-none">
+                  <a class="nav-item nav-link search-toggler" href="javascript:void(0);">
+                    <i class="bx bx-search bx-sm"></i>
+                  </a>
+                </li>
+                <!-- /Search -->
+
+                <!-- Social Media -->
+                <li class="nav-item me-2 me-xl-0">
+                  <small>
+                    تابعنا
+                  </small>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-facebook'></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-youtube' ></i>
+                  </a>
+                </li>
+                <!-- /Social Media -->
+              </ul>
+            </div>
+
+            <!-- Search Small Screens -->
+            <div class="navbar-search-wrapper search-input-wrapper container-xl d-none">
+              <input
+                type="text"
+                class="form-control search-input border-0"
+                placeholder="البحث..."
+                aria-label="البحث..."
+              />
+              <i class="bx bx-x bx-sm search-toggler cursor-pointer"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!-- / Navbar -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            
+
+             <!-- Menu -->
+            <aside id="layout-menu" class="layout-menu-horizontal menu-horizontal menu bg-menu-theme flex-grow-0">
+              <div class="container-xl d-flex h-100 align-items-center content-header shadow">
+                <div class="logo">
+                  <img src="./assets/img/branding/logo.svg" alt="">
+                </div>
+                <ul class="menu-inner">
+                  <!-- Dashboards -->
+                  <li class="menu-item active">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>الرئيسية</div>
+                    </a>
+                  </li>
+
+                  <!-- Layouts -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>من نحن</div>
+                    </a>
+                  </li>
+
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>أعضاء الإدارة</div>
+                    </a>
+                  </li>
+
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link menu-toggle">
+                      <div>الفروع</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div>قائمة فرعية</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div>قائمة فرعية</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>آخر الأخبار</div>
+                    </a>
+                  </li>
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>إتصل بنا</div>
+                    </a>
+                  </li>
+
+
+
+
+
+
+
+                </ul>
+              </div>
+            </aside>
+            <!-- / Menu -->
+
+             <!-- Slider -->
+             <div class="slider zindex-1">
+                <!-- Start WOWSlider section -->
+                <div id="wowslider-container1">
+                  <div class="ws_images">
+                    <ul>
+                      <li>
+                        <img src="./assets/img/slider/slider01.jpg" alt="" title="" id="wows1_0" />
+                        <span class="content">
+                          <div class="title pb-2">
+                            حلقات القرآن الكريم
+                          </div>
+                          <div class="text">
+                            خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
+                          </div>
+                          <div class="button">
+                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <img src="./assets/img/slider/slider02.jpg" alt="" title="" id="wows1_1" />
+                        <span class="content">
+                          <div class="title pb-2">
+                            حلقات القرآن الكريم
+                          </div>
+                          <div class="text">
+                            خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
+                          </div>
+                          <div class="button">
+                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                          </div>
+                        </span>
+                      </li>
+                      <li>
+                        <img src="./assets/img/slider/slider03.jpg" alt="" title="" id="wows1_2" />
+                        <span class="content">
+                          <div class="title pb-2">
+                            حلقات القرآن الكريم
+                          </div>
+                          <div class="text">
+                            خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
+                          </div>
+                          <div class="button">
+                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                          </div>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+
+                    <div class="ws_bullets"><div>
+                      <a href="#" title=""><span><img src="./assets/img/slider/tooltips/slider01.jpg" alt=""/>1</span></a>
+                      <a href="#" title=""><span><img src="./assets/img/slider/tooltips/slider02.jpg" alt=""/>2</span></a>
+                      <a href="#" title=""><span><img src="./assets/img/slider/tooltips/slider03.jpg" alt=""/>3</span></a>
+                    </div></div>
+
+
+                </div>
+                <!-- End WOWSlider section -->
+                <div class="gradient-effect"></div>
+            </div>
+            <!-- / Slider -->
+
+            <!-- Content -->
+
+            <div class="container-xl flex-grow-1 container-p-y zindex-2 home-container">
+              <div class="pointer-events mx-0 mx-4 px-3">
+                  <div class="services row">
+                    <div class="col pb-2 d-flex justify-content-center">
+                      <a href="#">
+                      <div class="service-block d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                          <span class="icon-reading"></span>
+                        </div>
+                        <div class="name">
+                          تأسيس القراءة
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="col pb-2 d-flex justify-content-center">
+                      <a href="#">
+                      <div class="service-block d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                          <span class="icon-quran"></span>
+                        </div>
+                        <div class="name">
+                          القرآن
+                        </div>
+                      </div>
+                      </a>
+                    </div>
+                    <div class="col pb-2 d-flex justify-content-center">
+                      <a href="#">
+                        <div class="service-block d-flex flex-column justify-content-center align-items-center">
+                          <div class="icon d-flex justify-content-center align-items-center">
+                            <span class="icon-hadith"></span>
+                          </div>
+                          <div class="name">
+                            الحديث النبوي
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col pb-2 d-flex justify-content-center">
+                      <a href="#">
+                      <div class="service-block d-flex flex-column justify-content-center align-items-center">
+                        <div class="icon d-flex justify-content-center align-items-center">
+                          <span class="icon-almutun"></span>
+                        </div>
+                        <div class="name">
+                          المتون
+                        </div>
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+
+                  <div class="about-alhula row pt-5">
+                    <div class="col-4">
+                      <img src="./assets/img/pages/about-alhula.png" alt="">
+                    </div>
+                    <div class="col-8">
+                      <div class="pb-3">
+                        <h4>
+                          <strong>
+                          ماذا تعرف عن مشروع الحلة
+                        </strong>
+                        </h4>
+                        <div>
+                          <p class="">
+                            هنالك العديد من الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها بشكل ما عبر إدخال بعض النوادر أو الكلمات العشوائية إلى النص. إن كنت تريد أن تستخدم نص لوريم إيبسوم ما، عليك أن تتحقق أولاً أن ليس هناك أي كلمات أو عبارات محرجة أو غير لائقة مخبأة في هذا النص. بينما تعمل جميع مولّدات نصوص لوريم إيبسوم على الإنترنت على إعادة تكرار مقاطع من نص لوريم إيبسوم نفسه ...
+                            <span><a href="#">إقرأ المزيد</a></span>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-6">
+                          <h5>أهدافنا</h5>
+                          <p class="">
+                            يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص لوريم.
+                            </p>
+                        </div>
+                        <div class="col-6">
+                          <h5>رؤيتنا</h5>
+                          <p class="">
+                            يقوم مولّدنا هذا باستخدام كلمات من قاموس يحوي على أكثر من 200 كلمة لا تينية، مضاف إليها مجموعة من الجمل النموذجية، لتكوين نص لوريم إيبسوم ذو شكل منطقي قريب.
+                            </p>
+                        </div>
+                      </div>
+                      <div class="row">
+
+                        <div class="col-9 pb-4">
+                          <div>
+                            <h6>أهدافنا</h6>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                          </div>
+                        </div>
+                        <div class="col-9">
+                          <div>
+                            <h6>أهدافنا</h6>
+                          </div>
+                          <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="programs-admission pt-5">
+
+                   
+                      <h4 class="text-center pb-3">
+                        <strong>
+                          البرامج وشروط الإلتحاق
+                        </strong>
+                      </h4>
+                  
+
+
+                  <div class="row mx-4 gy-3">
+                    <!-- Starter -->
+                    <div class="col-xl mb-lg-0 lg-4">
+                      <div class="card border shadow-none">
+                        <div class="card-body">
+                          <div class="mb-2 pb-1">
+                            <small class="text-muted">شهر</small>
+                            <div class="mt-2 d-flex">
+                              <h5 class="text-primary mb-0">تحفيظ القرآن الكريم</h5>
+                            </div>
+                          </div>
+                          <p>خصائص الإشتراك الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها</p>
+            
+                          <hr>
+            
+                          <ul class="list-unstyled pt-2 pb-1">
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              مولّدات نصوص لوريم إيبسوم على
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              نصوص لوريم إيبسوم على الإنترنت 
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص لوريم إيبسو
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                          </ul>
+
+            
+                          <a href="auth-register-basic.html" class="btn btn-label-primary d-grid w-100">إبدأ الآن</a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <!-- Exclusive -->
+                    <div class="col-xl mb-lg-0 lg-4">
+                      <div class="card border border-2 border-primary">
+                        <div class="card-body">
+                          <div class="mb-2 pb-1">
+                            <small class="text-muted">شهر</small>
+                            <div class="mt-2 d-flex">
+                              <h5 class="text-primary mb-0">تأسيس القراءة</h5>
+                            </div>
+                          </div>
+                          <p>خصائص الإشتراك الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها</p>
+            
+                          <hr>
+            
+                          <ul class="list-unstyled pt-2 pb-1">
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              مولّدات نصوص لوريم إيبسوم على
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              نصوص لوريم إيبسوم على الإنترنت 
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص لوريم إيبسو
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                          </ul>
+
+            
+                          <a href="auth-register-basic.html" class="btn btn-primary d-grid w-100">إبدأ الآن</a>
+                        </div>
+                      </div>
+                    </div>
+            
+                    <!-- Enterprise -->
+                    <div class="col-xl mb-lg-0 lg-4">
+                      <div class="card border shadow-none">
+                        <div class="card-body">            
+                          <div class="mb-2 pb-1">
+                            <small class="text-muted">شهر</small>
+                            <div class="mt-2 d-flex">
+                              <h5 class="text-primary mb-0">
+                                المتون
+                              </h5>
+                            </div>
+                          </div>
+                          <p>خصائص الإشتراك الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها</p>
+            
+                          <hr>
+            
+                          <ul class="list-unstyled pt-2 pb-1">
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              مولّدات نصوص لوريم إيبسوم على
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              نصوص لوريم إيبسوم على الإنترنت 
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              تعمل جميع مولّدات نصوص لوريم إيبسو
+                            </li>
+                            <li class="mb-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
+                                <i class="bx bx-check bx-xs"></i>
+                              </span>
+                              جميع مولّدات نصوص لوريم
+                            </li>
+                          </ul>
+            
+                          <a href="auth-register-basic.html" class="btn btn-label-primary d-grid w-100">إبدأ الآن</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!--/ price -->
+
+                </div>
+                  
+
+                </div>
+            </div>
+            <!--/ Content -->
+
+           <!-- Footer -->
+           <footer class="content-footer footer bg-footer-theme">
+            <div class="container-xl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+              <div class="mb-2 mb-md-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                جميع الحقوق محفوظة لدى مشروع الحلة
+              </div>
+              <div>
+                <a href="#" class="footer-link me-4" target="_self"
+                  >من نحن</a
+                >
+                <a href="#" target="_self" class="footer-link me-4"
+                  >أعضاء الإدارة</a
+                >
+                <a
+                  href="#"
+                  target="_self"
+                  class="footer-link me-4"
+                  >الفروع</a
+                >
+                <a href="#"
+                target="_self"
+                class="footer-link me-4"
+                  >آخر الأخبار</a
+                >
+                <a href="#"
+                target="_self"
+                class="footer-link me-4"
+                  >إتصل بنا</a
+                >
+              </div>
+            </div>
+          </footer>
+          <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!--/ Content wrapper -->
+        </div>
+
+        <!--/ Layout container -->
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+
+    <!--/ Layout wrapper -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="./assets/vendor/libs/popper/popper.js"></script>
+    <script src="./assets/vendor/js/bootstrap.js"></script>
+    <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="./assets/vendor/libs/hammer/hammer.js"></script>
+
+    <script src="./assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="./assets/vendor/libs/typeahead-js/typeahead.js"></script>
+
+    <script src="./assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="./assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    
+    <!-- WOWSlider JS -->
+    <script type="text/javascript" src="./assets/vendor/libs/wow/engine/wowslider.js"></script>
+    <script type="text/javascript" src="./assets/vendor/libs/wow/engine/script.js"></script>
+
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="./assets/js/dashboards-analytics.js"></script>
+  </body>
+</html>
