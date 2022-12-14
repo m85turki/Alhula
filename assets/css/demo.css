@@ -4,6 +4,9 @@
 ******************************************************************************/
 body{
   background: #1C2C4C;
+  background: rgb(156,100,60);
+background: fixed linear-gradient(-167deg, rgba(156,100,60,1) 0%, rgba(28,44,76,1) 30%, rgba(28,44,76,1) 100%);
+
 }
 
 .light-style .menu .app-brand.demo {
@@ -577,8 +580,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 body {
   font-size:0.9rem;
 }
+
 .form-control {
   font-size: 0.8rem;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .form-label {
