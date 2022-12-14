@@ -497,12 +497,6 @@ body, html{
   color: #D9B579;
 }
 
-/* Footer */
-.bg-footer-theme {
-  background-color: transparent !important;
-  color: #888F9C;
-}
-
 .pointer-events{
   pointer-events: visible;
 }
