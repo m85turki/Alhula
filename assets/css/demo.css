@@ -608,3 +608,7 @@ body {
 .number-unicode {
   unicode-bidi: plaintext;
 }
+
+.form-check .form-check-label{
+  font-size: 0.75rem;
+}

@@ -86,7 +86,7 @@
 
 
             <!-- Content -->
-            <div class="container-xl flex-grow-1 container-p-y zindex-2 inner-container mt-4" style="max-width: 400px;">
+            <div class="container-xl flex-grow-1 container-p-y zindex-2 inner-container mt-4" style="max-width: 740px;">
               <div class="pointer-events">
                 
                               <h4 class="my-4 pb-2">
@@ -101,7 +101,7 @@
                           <div class="contact-wrap w-100">
                           
                             <form method="POST" id="contactForm" name="contactForm" class="contactForm">
-                              <div class="row g-3">
+                              <div class="row g-3 gx-4">
                                 <div class="col-md-12">
                                   <div class="form-group">
                                     <label class="form-label" for="name">الإسم بالكامل</label>
@@ -112,13 +112,13 @@
                                   <div class="form-group">
                                     <label class="form-label" for="email">الجنس</label>
                                     <div class="">
-                                      <div class="form-check">
+                                      <div class="form-check form-check-inline">
                                         <input name="gender-radio" class="form-check-input" type="radio" value="" id="genderRadio1">
                                         <label class="form-check-label" for="genderRadio1">
                                           ذكر
                                         </label>
                                       </div>
-                                      <div class="form-check">
+                                      <div class="form-check form-check-inline">
                                         <input name="gender-radio" class="form-check-input" type="radio" value="" id="genderRadio2">
                                         <label class="form-check-label" for="genderRadio2">
                                           أنثى
@@ -127,13 +127,24 @@
                                     </div>
                                   </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                   <div class="form-group">
                                     <label class="form-label" for="name">الرقم المدني</label>
                                     <input type="text" class="form-control" name="name" id="name" placeholder="الرقم المدني">
                                   </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-6">
+                                  <label class="form-label" for="phone-number-mask">الرقم الوطني لولي الأمر</label>
+                                  <div class="input-group">
+                                    <input
+                                      type="text"
+                                      id="phone-number-mask"
+                                      class="form-control phone-number-mask"
+                                      placeholder="0000000111"
+                                    />
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
                                   <div class="form-group">
                                     <label class="form-label" for="name">الجنسية</label>
 
@@ -387,7 +398,7 @@
                                   </div>
                                 </div>
 
-                                <div class="col-md-12">
+                                <div class="col-md-6">
                                   <div class="form-group">
                                     <label class="form-label" for="name">تاريخ الميلاد</label>
                                     
@@ -409,6 +420,7 @@
                                     
                                   </div>
                                 </div>
+                                <div class="col-md-12"><hr></div>
                                 <div class="col-md-12">
                                   <div class="form-group">
                                     <label class="form-label" for="name">العنوان</label>
@@ -423,7 +435,7 @@
                                 </div>
 
                                 <!-- Phone Number -->
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                           <label class="form-label" for="phone-number-mask">رقم هاتف الأب</label>
                           <div class="input-group">
                             <input
@@ -436,7 +448,7 @@
                           </div>
                         </div>
                                 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                           <label class="form-label" for="phone-number-mask">رقم هاتف الأم</label>
                           <div class="input-group">
                             <input
@@ -449,35 +461,25 @@
                           </div>
                         </div>
 
-                        <div class="col-md-12">
-                          <label class="form-label" for="phone-number-mask">الرقم الوطني لولي الأمر</label>
-                          <div class="input-group">
-                            <input
-                              type="text"
-                              id="phone-number-mask"
-                              class="form-control phone-number-mask"
-                              placeholder="0000000111"
-                            />
-                          </div>
-                        </div>
+                        <div class="col-md-12"><hr></div>
 
-                        <div class="col-md-12"> 
+                        <div class="col-md-6"> 
                           <div class="form-group">
                             <label class="form-label" for="email">نوع الحلقة المختارة</label>
                             <div class="">
-                              <div class="form-check">
+                              <div class="form-check mb-2">
                                 <input name="circle-radio" class="form-check-input" type="radio" value="" id="circleRadio1">
                                 <label class="form-check-label" for="circleRadio1">
                                   حلقة التأسيس ( أساسيات اللغة العربية والقراءة الصحيحة)
                                 </label>
                               </div>
-                              <div class="form-check">
+                              <div class="form-check mb-2">
                                 <input name="circle-radio" class="form-check-input" type="radio" value="" id="circleRadio2">
                                 <label class="form-check-label" for="circleRadio2">
                                   حلقة الحفظ ( يحفظ المتقدم وفق خطة المركز لختم القرآن الكريم)
                                 </label>
                               </div>
-                              <div class="form-check">
+                              <div class="form-check mb-2">
                                 <input name="circle-radio" class="form-check-input" type="radio" value="" id="circleRadio3">
                                 <label class="form-check-label" for="circleRadio3">
                                   حلقة الحفظ الحر ( يحفظ المتقدم ما يريد من السور القرآنية حسب رغبته ) سواء كانت السور متتابعة أم متفرقة
@@ -488,17 +490,17 @@
                         </div>
 
 
-                        <div class="col-md-12"> 
+                        <div class="col-md-6"> 
                           <div class="form-group">
                             <label class="form-label" for="email">هل يعاني الطالب/ـة من أمراض أو حساسية</label>
                             <div class="">
-                              <div class="form-check">
+                              <div class="form-check mb-2">
                                 <input name="is-radio" class="form-check-input" type="radio" value="" id="isRadio1">
                                 <label class="form-check-label" for="isRadio1">
                                   نعم
                                 </label>
                               </div>
-                              <div class="form-check">
+                              <div class="form-check mb-2">
                                 <input name="is-radio" class="form-check-input" type="radio" value="" id="isRadio2">
                                 <label class="form-check-label" for="isRadio2">
                                   لا
@@ -513,7 +515,7 @@
                                 
                                 <div class="col-md-12">
                                   <div class="form-group">
-                                    <input type="submit" value="تسجيل" class="btn btn-primary">
+                                    <input type="submit" value="سجل" class="btn btn-primary">
                                     <div class="submitting"></div>
                                   </div>
                                 </div>
