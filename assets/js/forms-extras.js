@@ -8,13 +8,18 @@
   const textarea = document.querySelector('#autosize-demo'),
     creditCard = document.querySelector('.credit-card-mask'),
     phoneMask = document.querySelector('.phone-number-mask'),
+    phonemotherMask = document.querySelector('.phone-number-mother-mask'),
     dateMask = document.querySelector('.date-mask'),
     timeMask = document.querySelector('.time-mask'),
     numeralMask = document.querySelector('.numeral-mask'),
     blockMask = document.querySelector('.block-mask'),
     delimiterMask = document.querySelector('.delimiter-mask'),
     customDelimiter = document.querySelector('.custom-delimiter-mask'),
-    prefixMask = document.querySelector('.prefix-mask');
+    idDelimiter = document.querySelector('.id-delimiter-mask'),
+    guardianDelimiter = document.querySelector('.guardian-delimiter-mask'),
+    prefixMask = document.querySelector('.prefix-mask'),
+    fatherprefixMask = document.querySelector('.father-prefix-mask'),
+    motherprefixMask = document.querySelector('.mother-prefix-mask');
 
   // Autosize
   // --------------------------------------------------------------------
@@ -43,10 +48,21 @@
   // Phone Number
   if (phoneMask) {
     new Cleave(phoneMask, {
+      blocks: [3, 3, 2],
       phone: true,
       phoneRegionCode: 'US'
     });
   }
+
+  // Phone Number
+  if (phonemotherMask) {
+    new Cleave(phonemotherMask, {
+      blocks: [3, 3, 2],
+      phone: true,
+      phoneRegionCode: 'US'
+    });
+  }
+
 
   // Date
   if (dateMask) {
@@ -93,8 +109,26 @@
   // Custom Delimiter
   if (customDelimiter) {
     new Cleave(customDelimiter, {
-      delimiters: ['.', '.', '-'],
-      blocks: [3, 3, 3, 2],
+      delimiters: [' ', ' ', ' '],
+      blocks: [4, 4, 4, 2],
+      uppercase: true
+    });
+  }
+
+  // Custom Delimiter
+  if (idDelimiter) {
+    new Cleave(idDelimiter, {
+      delimiters: [' ', ' ', ' '],
+      blocks: [4, 4, 4, 2],
+      uppercase: true
+    });
+  }
+
+  // Custom Delimiter
+  if (guardianDelimiter) {
+    new Cleave(guardianDelimiter, {
+      delimiters: [' ', ' ', ' '],
+      blocks: [4, 4, 4, 2],
       uppercase: true
     });
   }
@@ -107,6 +141,25 @@
       uppercase: true
     });
   }
+
+  // Prefix
+  if (fatherprefixMask) {
+    new Cleave(fatherprefixMask, {
+      prefix: '+965',
+      blocks: [4, 3, 3, 2],
+      uppercase: true
+    });
+  }
+
+  // Prefix
+  if (motherprefixMask) {
+    new Cleave(motherprefixMask, {
+      prefix: '+965',
+      blocks: [4, 3, 3, 2],
+      uppercase: true
+    });
+  }
+  
 })();
 
 // bootstrap-maxlength & repeater (jquery)

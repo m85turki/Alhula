@@ -607,8 +607,16 @@ body {
 
 .number-unicode {
   unicode-bidi: plaintext;
+  text-align: right;
 }
 
 .form-check .form-check-label{
   font-size: 0.75rem;
+  color: #1C2C4C;
+}
+
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: rgba(156, 100, 60, 0.08) !important;
+  color: #9C643C !important;
 }
