@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+
+<html
+  lang="ar"
+  class="light-style alhula"
+  dir="rtl"
+  data-theme="theme-default"
+  data-assets-path="./assets/"
+  data-template="horizontal-menu-template-no-customizer"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+
+    <title>الأخبار | مشروع الحلة</title>
+
+    <meta name="description" content="" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/flag-icons.css" />
+    <link rel="stylesheet" href="./assets/vendor/fonts/icomoon.css" />
+
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="./assets/vendor/css/rtl/core.css" />
+    <link rel="stylesheet" href="./assets/vendor/css/rtl/theme-default.css" />
+    
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="./assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
+    
+    <!-- WOW CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/vendor/libs/wow/engine/style.css" />
+    
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="./assets/css/demo.css" />
+
+    <!-- Helpers -->
+    <script src="./assets/vendor/js/helpers.js"></script>
+
+    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+    <script src="./assets/js/config.js"></script>
+  </head>
+
+  <body>
+    <!-- Layout wrapper -->
+    <div class="layout-wrapper layout-navbar-full layout-horizontal layout-without-menu">
+      <div class="layout-container">
+        <!-- Navbar -->
+
+        <nav class="layout-navbar navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar">
+          <div class="container-xl">
+            <div class="navbar-brand app-brand demo d-none d-xl-flex py-0 me-4">
+
+              <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-xl-none">
+                <i class="bx bx-x bx-sm align-middle"></i>
+              </a>
+            </div>
+
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                <!-- Search -->
+                <li class="nav-item navbar-search-wrapper me-2 me-xl-0 d-none">
+                  <a class="nav-item nav-link search-toggler" href="javascript:void(0);">
+                    <i class="bx bx-search bx-sm"></i>
+                  </a>
+                </li>
+                <!-- /Search -->
+
+                <!-- Social Media -->
+                <li class="nav-item me-2 me-xl-0">
+                  <small>
+                    تابعنا
+                  </small>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-facebook'></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-twitter' ></i>
+                  </a>
+                </li>
+                <li class="nav-item me-2 me-xl-0">
+                  <a class="nav-item nav-link" href="#" target="_blank">
+                    <i class='bx bxl-youtube' ></i>
+                  </a>
+                </li>
+                <!-- /Social Media -->
+              </ul>
+            </div>
+
+            <!-- Search Small Screens -->
+            <div class="navbar-search-wrapper search-input-wrapper container-xl d-none">
+              <input
+                type="text"
+                class="form-control search-input border-0"
+                placeholder="البحث..."
+                aria-label="البحث..."
+              />
+              <i class="bx bx-x bx-sm search-toggler cursor-pointer"></i>
+            </div>
+          </div>
+        </nav>
+
+        <!-- / Navbar -->
+
+        <!-- Layout container -->
+        <div class="layout-page">
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            
+
+             <!-- Menu -->
+            <aside id="layout-menu" class="layout-menu-horizontal menu-horizontal menu bg-menu-theme flex-grow-0">
+              <div class="container-xl d-flex h-100 align-items-center content-header shadow">
+                <div class="logo mt-4 mt-xl-0">
+                  <a href="#">
+                    <img src="./assets/img/branding/logo.svg" alt="">
+                  </a>
+                </div>
+                <ul class="menu-inner">
+                  <!-- Dashboards -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>الرئيسية</div>
+                    </a>
+                  </li>
+
+                  <!-- Layouts -->
+                  <li class="menu-item active">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>من نحن</div>
+                    </a>
+                  </li>
+
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>أعضاء الإدارة</div>
+                    </a>
+                  </li>
+
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link menu-toggle">
+                      <div>الفروع</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div>قائمة فرعية</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div>قائمة فرعية</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div>قائمة فرعية</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>آخر الأخبار</div>
+                    </a>
+                  </li>
+                  <!-- Apps -->
+                  <li class="menu-item">
+                    <a href="javascript:void(0)" class="menu-link">
+                      <div>إتصل بنا</div>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </aside>
+            <!-- / Menu -->
+
+
+            <!-- Content -->
+            <div class="container-xl flex-grow-1 container-p-y zindex-2 inner-container mt-4">
+              <div class="pointer-events mx-2 mx-md-4 px-0 px-md-3">
+                
+                <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                      <a href="javascript:void(0);">الرئيسية</a>
+                    </li>
+                    <li class="breadcrumb-item active">آخر الأخبار</li>
+                  </ol>
+                </nav>
+                <hr>
+                <h4 class="my-4 pb-2">
+                  <strong>
+                    آخر الأخبار
+                  </strong>
+                </h4>
+
+
+                <div class="latest-news">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <main class="axil-content">
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">المتون</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">القرآن الكريم</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">المتون</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                         
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">القرآن</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">المتون</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">القرآن الكريم</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a></h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                         
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                                <div class="media post-block post-block__mid mb-4">
+                                    <a href="#" class="align-self-center me-4"><img class=" " src="./assets/img/pages/about-alhula.png" alt=""></a>
+                                    <div class="media-body">
+                                        <div class="post-cat-group m-b-xs-10">
+                                            <a href="#" class="cat-btn bg-primary">المتون</a>
+                                        </div>
+                                        <h4 class="hover-line"><a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a>
+                                        </h4>
+                                        <p class="mid">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</p>
+                                        
+                                    </div>
+                                </div>
+                                <!-- End of .post-block -->
+                            </main>
+                            <!-- End of .axil-content -->
+                        </div>
+                        <!-- End of .col-lg-8 -->
+                        <div class="col-lg-4">
+                            <aside class="post-sidebar">
+                                <!-- End of .sidebar-social-share -->
+                                <div class="newsletter-widget weekly-newsletter bg-light mb-4 p-4">
+                                    <div class="newsletter-content">
+                                        <div class="section-title">
+                                            <h4>إشترك في رسائلنا الإخبارية الأسبوعية</h4>
+                                            <p class="mid m-t-xs-10 m-b-xs-20">لا بريد مزعج ، إخطارات فقط حول المنتجات الجديدة والتحديثات.</p>
+                                        </div>
+                                        <!-- End of .section-title -->
+                                        <div class="subscription-form-wrapper">
+                                            <form action="#" class="subscription-form">
+                                                <div class="form-group form-group-small mb-2">
+                                                    <label class="form-label" for="subscription-email">البريد الإلكتروني</label>
+                                                    <input type="text" class="form-control" name="subscription-email" id="subscription-email" placeholder="أدخل بريدك الالكتروني">
+                                                </div>
+                                                <div class="m-b-xs-0">
+                                                    <button class="btn btn-primary btn-small">إشترك</button>
+                                                </div>
+                                            </form>
+                                            <!-- End of .subscription-form -->
+                                        </div>
+                                        <!-- End of .subscription-form-wrapper -->
+                                    </div>
+                                    <!-- End of .newsletter-content -->
+                                </div>
+                                <div class="category-widget m-b-xs-40">
+                                    <div class="widget-title">
+                                        <h4>التصنيفات</h4>
+                                    </div>
+                                    <ul class="category-list-wrapper">
+                                      <li class="category-list perfect-square" style="height: 149.984px;">
+                                          <a href="#" class="list-inner" style="background-image: url(./assets/img/pages/about-alhula.png)">
+                                              <div class="post-info-wrapper overlay">
+                                                  <div class="counter-inner"><span class="counter">5</span>+
+                                                  </div>
+                                                  <h4 class="cat-title">الأكثر قرآءة</h4>
+                                              </div>
+                                              <!-- End of .counter-wrapper -->
+                                          </a>
+                                      </li>
+                                      <!-- End of .category-list -->
+                                      <li class="category-list perfect-square" style="height: 149.984px;">
+                                          <a href="#" class="list-inner" style="background-image: url(./assets/img/pages/about-alhula.png)">
+                                              <div class="post-info-wrapper overlay">
+                                                  <div class="counter-inner"><span class="counter">30</span>+
+                                                  </div>
+                                                  <h4 class="cat-title">القرآن</h4>
+                                              </div>
+                                              <!-- End of .counter-wrapper -->
+                                          </a>
+                                      </li>
+                                      <!-- End of .category-list -->
+                                      <li class="category-list perfect-square" style="height: 149.984px;">
+                                          <a href="#" class="list-inner" style="background-image: url(./assets/img/pages/about-alhula.png)">
+                                              <div class="post-info-wrapper overlay">
+                                                  <div class="counter-inner"><span class="counter">1</span>+
+                                                  </div>
+                                                  <h4 class="cat-title">التأسيس</h4>
+                                              </div>
+                                              <!-- End of .counter-wrapper -->
+                                          </a>
+                                      </li>
+                                      <!-- End of .category-list -->
+                                      <li class="category-list perfect-square" style="height: 149.984px;">
+                                          <a href="#" class="list-inner" style="background-image: url(./assets/img/pages/about-alhula.png)">
+                                              <div class="post-info-wrapper overlay">
+                                                  <div class="counter-inner"><span class="counter">1</span>+
+                                                  </div>
+                                                  <h4 class="cat-title">المتون</h4>
+                                              </div>
+                                              <!-- End of .counter-wrapper -->
+                                          </a>
+                                      </li>
+                                      <!-- End of .category-list -->
+                                  </ul>
+                                <!-- End of .category-widget -->
+
+
+                                <div class="mt-4">
+
+                                  <div class="widget-title">
+                                    <h4>التصنيفات</h4>
+                                </div>
+  
+                                  <div class="post-widget sidebar-post-widget m-b-xs-40">
+                                    <div class="axil-content">
+                                      <div class="media post-block post-block__small mb-3">
+                                          <a href="#" class="align-self-center me-3"><img class=" " src="./assets/img/pages/about-alhula.png" alt="media image"></a>
+                                          <div class="media-body">
+                                              <div class="post-cat-group">
+                                                  <a href="#" class="color-secondary mb-2">القرآن</a>
+                                              </div>
+                                              <h6 class="hover-line mb-0">
+                                                <a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a>
+                                              </h6>
+                                          </div>
+                                      </div>
+                                      <!-- End of .post-block -->
+                                      <div class="media post-block post-block__small mb-3">
+                                          <a href="#" class="align-self-center me-3"><img class=" " src="./assets/img/pages/about-alhula.png" alt="media image"></a>
+                                          <div class="media-body">
+                                            <div class="post-cat-group">
+                                              <a href="#" class="color-secondary mb-2">القرآن</a>
+                                          </div>
+                                              <h6 class="hover-line mb-0">
+                                                <a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a>
+                                              </h6>
+                                          </div>
+                                      </div>
+                                      <!-- End of .post-block -->
+                                      <div class="media post-block post-block__small mb-3">
+                                          <a href="#" class="align-self-center me-3"><img class=" " src="./assets/img/pages/about-alhula.png" alt="media image"></a>
+                                          <div class="media-body">
+                                            <div class="post-cat-group">
+                                              <a href="#" class="color-secondary mb-2">القرآن</a>
+                                          </div>
+                                              <h6 class="hover-line mb-0">
+                                                <a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a>
+                                              </h6>
+                                              
+                                          </div>
+                                      </div>
+                                      <!-- End of .post-block -->
+                                      <div class="media post-block post-block__small mb-3">
+                                          <a href="#" class="align-self-center me-3"><img class=" " src="./assets/img/pages/about-alhula.png" alt="media image"></a>
+                                          <div class="media-body">
+                                            <div class="post-cat-group">
+                                              <a href="#" class="color-secondary mb-2">القرآن</a>
+                                          </div>
+                                              <h6 class="hover-line mb-0">
+                                                <a href="#">حلقة التأسيس أساسيات اللغة العربية والقراءة الصحيحة</a>
+                                              </h6>
+                                              
+                                          </div>
+                                      </div>
+                                      <!-- End of .post-block -->
+                                  </div>
+  
+                                  </div>
+                                </div>
+                            </aside>
+                            <!-- End of .post-sidebar -->
+                        </div>
+                        <!-- End of .col-lg-4 -->
+                    </div>
+                </div>
+
+                </div>
+            </div>
+            <!--/ Content -->
+
+           <!-- Footer -->
+           <footer class="content-footer footer bg-footer-theme py-2">
+            <div class="container-xl d-flex flex-wrap justify-content-center align-items-center py-3 flex-md-column flex-column">
+              
+              <div class="pb-2 d-flex align-items-center flex-wrap justify-content-center">
+                <a href="#" class="footer-link me-3 mb-2" target="_self"
+                  >من نحن</a
+                >
+                <a href="#" target="_self" class="footer-link me-3 mb-2"
+                  >أعضاء الإدارة</a
+                >
+                <a
+                  href="#"
+                  target="_self"
+                  class="footer-link me-3 mb-2"
+                  >الفروع</a
+                >
+                <a href="#"
+                target="_self"
+                class="footer-link me-3 mb-2"
+                  >آخر الأخبار</a
+                >
+                <a href="#"
+                target="_self"
+                class="footer-link me-3 mb-2"
+                  >إتصل بنا</a
+                >
+              </div>
+
+              <div class="mb-2 mb-md-0">
+                ©
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                جميع الحقوق محفوظة لدى مشروع الحلة
+              </div>
+            </div>
+          </footer>
+          <!-- / Footer -->
+
+            <div class="content-backdrop fade"></div>
+          </div>
+          <!--/ Content wrapper -->
+        </div>
+
+        <!--/ Layout container -->
+      </div>
+    </div>
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+
+    <!-- Drag Target Area To SlideIn Menu On Small Screens -->
+    <div class="drag-target"></div>
+
+    <!--/ Layout wrapper -->
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="./assets/vendor/libs/popper/popper.js"></script>
+    <script src="./assets/vendor/js/bootstrap.js"></script>
+    <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="./assets/vendor/libs/hammer/hammer.js"></script>
+
+    <script src="./assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="./assets/vendor/libs/typeahead-js/typeahead.js"></script>
+
+    <script src="./assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+    <script src="./assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    
+    <!-- Main JS -->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="./assets/js/dashboards-analytics.js"></script>
+  </body>
+</html>
