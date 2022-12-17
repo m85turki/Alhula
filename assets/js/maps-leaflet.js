@@ -4561,10 +4561,10 @@
   // --------------------------------------------------------------------
   const layerControlVar = document.getElementById('layerControl');
   if (layerControlVar) {
-    const littleton = L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.'),
-      denver = L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.'),
-      aurora = L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.'),
-      golden = L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.');
+    const littleton = L.marker([29.331323242821938, 47.67430256147311]).bindPopup('<div class="branche-style"><h5 class="title mb-1">فرع مدينة الكويت</h5><div class="content"><div class="text mb-2">الوصف يأتي هنا</div><table class="table"><tr><td><div class="label">هاتف</div></td><td><div class="text number-unicode">+1235 7700 0000</div></td></tr><tr><td><div class="label">الإتجاه</div></td><td><div class="text icon"><a href="https://www.google.com/maps" target="_blank"><i class="bx bxs-direction-right"></i></a></div></td></tr></table></div></div>'),
+      denver = L.marker([29.372149295366896, 47.98380120283939]).bindPopup('<div class="branche-style"><h5 class="title mb-1">فرع مدينة الكويت</h5><div class="content"><div class="text mb-2">الوصف يأتي هنا</div><table class="table"><tr><td><div class="label">هاتف</div></td><td><div class="text number-unicode">+1235 7700 0000</div></td></tr><tr><td><div class="label">الإتجاه</div></td><td><div class="text icon"><a href="https://www.google.com/maps" target="_blank"><i class="bx bxs-direction-right"></i></a></div></td></tr></table></div></div>'),
+      aurora = L.marker([29.080800270070473, 48.073827218950576]).bindPopup('<div class="branche-style"><h5 class="title mb-1">فرع مدينة الكويت</h5><div class="content"><div class="text mb-2">الوصف يأتي هنا</div><table class="table"><tr><td><div class="label">هاتف</div></td><td><div class="text number-unicode">+1235 7700 0000</div></td></tr><tr><td><div class="label">الإتجاه</div></td><td><div class="text icon"><a href="https://www.google.com/maps" target="_blank"><i class="bx bxs-direction-right"></i></a></div></td></tr></table></div></div>'),
+      golden = L.marker([28.664915220390167, 48.3665685562215]).bindPopup('<div class="branche-style"><h5 class="title mb-1">فرع مدينة الكويت</h5><div class="content"><div class="text mb-2">الوصف يأتي هنا</div><table class="table"><tr><td><div class="label">هاتف</div></td><td><div class="text number-unicode">+1235 7700 0000</div></td></tr><tr><td><div class="label">الإتجاه</div></td><td><div class="text icon"><a href="https://www.google.com/maps" target="_blank"><i class="bx bxs-direction-right"></i></a></div></td></tr></table></div></div>')
     const cities = L.layerGroup([littleton, denver, aurora, golden]);
     const street = L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
@@ -4575,8 +4575,8 @@
         maxZoom: 18
       });
     const layerControl = L.map('layerControl', {
-      center: [39.73, -104.99],
-      zoom: 10,
+      center: [29.35078096435508, 47.66749482043936],
+      zoom: 8,
       layers: [street, cities]
     });
     const baseMaps = {

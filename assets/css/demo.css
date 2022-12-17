@@ -627,3 +627,38 @@ body {
 .card {
   background: rgba(255, 255, 255, 0.6);
 }
+
+.bg-light{
+  background: #FAF9F7 !important;
+}
+
+.max-img-w-500{
+  max-width: 500px;
+  text-align: center;
+}
+
+.max-img-w-400{
+  max-width: 400px;
+  text-align: center;
+}
+
+.branche-style .label{
+  font-weight: bold;
+}
+
+.branche-style{
+  font-size: 0.8rem;
+  font-family: 'Alexandria', sans-serif !important;
+  direction: rtl;
+  text-align: right;
+}
+.branche-style .text.icon a i{
+  font-size: 2em;
+}
+.leaflet-container .leaflet-control-attribution {
+  display: none !important;
+  }
+
+  .leaflet-map {
+    height: 600px;
+}
