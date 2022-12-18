@@ -976,3 +976,8 @@ a.color-secondary{
 .page-item:not(.first, .last, .next, .prev, .previous) {
   background-color: #FAF9F7;
 }
+
+p {
+  color: #525D74;
+  font-size: 9.5pt;
+}
