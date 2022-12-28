@@ -79,6 +79,103 @@
 
             <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
               <ul class="navbar-nav flex-row align-items-center ms-auto">
+
+
+
+
+
+                <!-- User regester or login -->
+                <li class="nav-item me-3 n-i-bg px-2 py-0 d-flex align-items-center rounded-1">
+                  <a class="nav-item nav-link px-1 py-1" href="#" target="_blank">
+                    تسجيل
+                 </a>
+                 <div>/</div>
+                 <a class="nav-item nav-link px-1 py-1" href="#" target="_blank">
+                    دخول
+                </a>
+                </li>
+
+
+                <!-- User -->
+                <li class="nav-item navbar-dropdown dropdown-user dropdown me-3">
+                  <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar avatar-sm avatar-online">
+                      <img src="../../assets/img/avatars/1.png" alt="" class="rounded-circle d-none">
+                        <!-- Or -->
+                      <span class="avatar-initial rounded-circle bg-label-secondary">م ت</span>
+                    </div>
+                  </a>
+                  
+                  
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                      <a class="dropdown-item" href="pages-account-settings-account.html">
+                        <div class="d-flex">
+                          <div class="flex-shrink-0 me-3">
+                            <div class="avatar avatar-online">
+                              <img src="../../assets/img/avatars/1.png" alt="" class="rounded-circle">
+                            </div>
+                          </div>
+                          <div class="flex-grow-1">
+                            <span class="fw-semibold d-block lh-1">محمد تركي</span>
+                            <small>طالب</small>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-profile-user.html">
+                        <i class="bx bx-user me-2"></i>
+                        <span class="align-middle">ملفي</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-account-settings-account.html">
+                        <i class="bx bx-cog me-2"></i>
+                        <span class="align-middle">الإعدادات</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-account-settings-billing.html">
+                        <span class="d-flex align-items-center align-middle">
+                          <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
+                          <span class="flex-grow-1 align-middle">الإشتراكات</span>
+                          <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-help-center-landing.html">
+                        <i class="bx bx-support me-2"></i>
+                        <span class="align-middle">المساعدة</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="pages-faq.html">
+                        <i class="bx bx-help-circle me-2"></i>
+                        <span class="align-middle">سؤال وجواب</span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="dropdown-divider"></div>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="auth-login-cover.html" target="_blank">
+                        <i class="bx bx-power-off me-2"></i>
+                        <span class="align-middle">تسجيل الخروج</span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- User -->
+
+
                 <!-- Search -->
                 <li class="nav-item navbar-search-wrapper me-2 me-xl-0 d-none">
                   <a class="nav-item nav-link search-toggler" href="javascript:void(0);">
@@ -93,18 +190,18 @@
                     تابعنا
                   </small>
                 </li>
-                <li class="nav-item me-2 me-xl-0">
-                  <a class="nav-item nav-link" href="#" target="_blank">
+                <li class="nav-item me-0 me-md-1 me-xl-0">
+                  <a class="nav-item nav-link px-0 px-md-1" href="#" target="_blank">
                     <i class='bx bxl-facebook'></i>
                   </a>
                 </li>
-                <li class="nav-item me-2 me-xl-0">
-                  <a class="nav-item nav-link" href="#" target="_blank">
+                <li class="nav-item me-0 me-md-1 me-xl-0">
+                  <a class="nav-item nav-link px-0 px-md-1" href="#" target="_blank">
                     <i class='bx bxl-twitter' ></i>
                   </a>
                 </li>
-                <li class="nav-item me-2 me-xl-0">
-                  <a class="nav-item nav-link" href="#" target="_blank">
+                <li class="nav-item me-0 me-md-1 me-xl-0">
+                  <a class="nav-item nav-link px-0 px-md-1" href="#" target="_blank">
                     <i class='bx bxl-youtube' ></i>
                   </a>
                 </li>
@@ -216,17 +313,29 @@
                     </a>
                   </li>
 
-
-
-
-
-
-
                 </ul>
               </div>
             </aside>
             <!-- / Menu -->
 
+            <aside id="supporters" class="flex-grow-0 zindex-4">
+              <div class="container-xl mx-auto d-flex align-items-start justify-content-end">
+                
+                <div class="supporters d-flex h-100 w-auto align-items-start justify-content-end">
+                  <div class="m-4 me-0">
+                    <a href="">
+                      <img src="./assets/img/branding/logo-alzir.svg" alt="">
+                    </a>
+                  </div>
+                  <div class="m-4 me-0">
+                    <a href="">
+                    <img src="./assets/img/branding/logo-alrasikhon.svg" alt="">
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </aside>
              <!-- Slider -->
              <div class="slider zindex-1">
                 <!-- Start WOWSlider section -->
@@ -243,7 +352,7 @@
                             خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
                           </div>
                           <div class="button">
-                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                            <button type="button" class="btn btn-secondary">التسجيل الآن</button>
                           </div>
                         </span>
                       </li>
@@ -257,7 +366,7 @@
                             خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
                           </div>
                           <div class="button">
-                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                            <button type="button" class="btn btn-secondary">التسجيل الآن</button>
                           </div>
                         </span>
                       </li>
@@ -271,7 +380,7 @@
                             خلافاَ للإعتقاد السائد فإن لوريم إيبسوم ليس نصاَ عشوائياً، بل إن له جذور في الأدب اللاتيني الكلاسيكي منذ العام 45 قبل الميلاد، مما يجعله أكثر من 2000 عام في القدم.
                           </div>
                           <div class="button">
-                            <button type="button" class="btn btn-primary">التسجيل الآن</button>
+                            <button type="button" class="btn btn-secondary">التسجيل الآن</button>
                           </div>
                         </span>
                       </li>
@@ -421,7 +530,7 @@
                           <div class="mb-2 pb-1">
                             <small class="text-muted">شهر</small>
                             <div class="mt-2 d-flex">
-                              <h5 class="text-secondary mb-0">تحفيظ القرآن الكريم</h5>
+                              <h5 class="text-primary mb-0">تحفيظ القرآن الكريم</h5>
                             </div>
                           </div>
                           <p>خصائص الإشتراك الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها</p>
@@ -430,37 +539,37 @@
             
                           <ul class="list-unstyled pt-2 pb-1">
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               مولّدات نصوص لوريم إيبسوم على
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               نصوص لوريم إيبسوم على الإنترنت 
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص لوريم إيبسو
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
@@ -468,7 +577,7 @@
                           </ul>
 
             
-                          <a href="#" class="btn btn-label-secondary d-grid w-100">إبدأ الآن</a>
+                          <a href="#" class="btn btn-label-primary d-grid w-100">إبدأ الآن</a>
                         </div>
                       </div>
                     </div>
@@ -480,7 +589,7 @@
                           <div class="mb-2 pb-1">
                             <small class="text-muted">شهر</small>
                             <div class="mt-2 d-flex">
-                              <h5 class="text-secondary mb-0">تأسيس القراءة</h5>
+                              <h5 class="text-primary mb-0">تأسيس القراءة</h5>
                             </div>
                           </div>
                           <p>خصائص الإشتراك الأنواع المتوفرة لنصوص لوريم إيبسوم، ولكن الغالبية تم تعديلها</p>
@@ -489,37 +598,37 @@
             
                           <ul class="list-unstyled pt-2 pb-1">
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               مولّدات نصوص لوريم إيبسوم على
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               نصوص لوريم إيبسوم على الإنترنت 
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص لوريم إيبسو
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
@@ -527,7 +636,7 @@
                           </ul>
 
             
-                          <a href="#" class="btn btn-secondary d-grid w-100">إبدأ الآن</a>
+                          <a href="#" class="btn btn-primary d-grid w-100">إبدأ الآن</a>
                         </div>
                       </div>
                     </div>
@@ -539,7 +648,7 @@
                           <div class="mb-2 pb-1">
                             <small class="text-muted">شهر</small>
                             <div class="mt-2 d-flex">
-                              <h5 class="text-secondary mb-0">
+                              <h5 class="text-primary mb-0">
                                 المتون
                               </h5>
                             </div>
@@ -550,44 +659,44 @@
             
                           <ul class="list-unstyled pt-2 pb-1">
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               مولّدات نصوص لوريم إيبسوم على
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               نصوص لوريم إيبسوم على الإنترنت 
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               تعمل جميع مولّدات نصوص لوريم إيبسو
                             </li>
                             <li class="mb-2">
-                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-secondary me-2">
+                              <span class="badge badge-center w-px-20 h-px-20 rounded-pill bg-label-primary me-2">
                                 <i class="bx bx-check bx-xs"></i>
                               </span>
                               جميع مولّدات نصوص لوريم
                             </li>
                           </ul>
             
-                          <a href="#" class="btn btn-label-secondary d-grid w-100">إبدأ الآن</a>
+                          <a href="#" class="btn btn-label-primary d-grid w-100">إبدأ الآن</a>
                         </div>
                       </div>
                     </div>
@@ -607,7 +716,7 @@
            <footer class="content-footer footer bg-footer-theme py-2">
             <div class="container-xl d-flex flex-wrap justify-content-center align-items-center py-3 flex-md-column flex-column">
               
-              <div class="pb-2 d-flex align-items-center flex-wrap justify-content-center">
+              <div class="pb-0 d-flex align-items-center flex-wrap justify-content-center">
                 <a href="#" class="footer-link me-3 mb-2" target="_self"
                   >من نحن</a
                 >
