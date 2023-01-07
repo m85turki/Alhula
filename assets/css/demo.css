@@ -465,7 +465,8 @@ body, html{
 .services{
   position: relative;
   background: rgb(88, 91, 76);
-  background: linear-gradient(-167deg, rgb(88, 91, 76) 0%, rgba(75, 73, 56,1) 60%, rgba(63, 61, 48,1) 100%);
+  background: linear-gradient(-167deg, #899e97 0%, rgba(75, 73, 56,1) 60%, rgba(63, 61, 48,1) 100%);
+  background: linear-gradient(-167deg, #899e97 -20%, rgba(75, 73, 56,1) 70%, #c5b272 120%);
   padding: 20px 50px;
   color: #f0f0f0;
   line-height: 1.5rem;
@@ -474,9 +475,14 @@ body, html{
 
 .services a{
   color: #899E97;
+  color: #3F3D30;
   font-weight: 400;
   display: block;
   transition: all 0.3s;
+}
+
+.services a .name{
+  color: #C5B272;
 }
 
 .services .service-block{
@@ -489,13 +495,13 @@ body, html{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background: #3F3D30;
+  background: rgba(197, 178, 114, 0.8);
   transition: all 0.3s;
 }
 
 .services a:hover .service-block .icon{
-  background: #4B4938;
-  color: #F0F0F0;
+  background: rgba(63, 61, 48, 0.8);
+  color: #C5B272;
 }
 
 .services .service-block .name{
@@ -504,6 +510,7 @@ body, html{
 }
 .services a:hover .service-block .name{
   color: #F0F0F0;
+  color: #C5B272;
 }
 
 .pointer-events{
@@ -538,8 +545,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 /* progress-bar */
 .progress-bar {
-  background-color: #4B4938;
-  color: #fff;
+  background-color: #C5B272;
+  color: #4B4938;
+  font-weight: bold;
   box-shadow: 0 2px 4px 0 rgba(137, 158, 151, 0.4);
 }
 
@@ -1027,3 +1035,6 @@ p {
   background: #899E97;
 }
 
+.shadow{
+    box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 30%) !important;
+}
